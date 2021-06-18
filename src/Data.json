@@ -1,0 +1,42 @@
+[
+    {
+        "make": "Subaru",
+        "model": "STI",
+        "year": "2013"
+    },
+    {
+        "make": "Nissan",
+        "model": "350z",
+        "year": "2002"
+    },
+    {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": "2010"
+    },
+    {
+        "make": "Infiniti",
+        "model": "G37",
+        "year": "2008"
+    },
+    {
+        "make": "Scion",
+        "model": "TC",
+        "year": "2005"
+    },
+    {
+        "make": "Mitsubishi",
+        "model": "Lancer",
+        "year": "2002"
+    },
+    {
+        "make": "Acura",
+        "model": "NSX",
+        "year": "2000"
+    },
+    {
+        "make": "Dodge",
+        "model": "Charger",
+        "year": "2015"
+    }
+]
