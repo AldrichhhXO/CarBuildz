@@ -7,7 +7,6 @@ export default function PageLayout(props) {
         <div>
             <Navbar />
             {props.children}
-            <Footer />
         </div>
     )
 }
