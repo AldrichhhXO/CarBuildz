@@ -18,3 +18,27 @@ input[type=number] {
 .Filter-Group input {
   margin-left: 5px;
 }
+
+
+/*
+  Builds Page
+*/
+
+
+.Build-Text {
+  border: 1px solid black;
+  font-size: 3vw;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.add-build-button {
+  width: 20vw;
+  height: 10vh; 
+  font-size: 2vw;
+  margin: 0 auto;
+}

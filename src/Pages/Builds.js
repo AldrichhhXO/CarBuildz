@@ -1,14 +1,18 @@
 import React from 'react'
 import PageLayout from '../Layout/PageLayout'
-import BuildsContainer from '../Containers/BuildsContainer/BuildsContainer'
-import BuildForm from '../Components/BuildForm/BuildForm'
+import BuildFormModal from '../Components/BuildFormModal/BuildFormModal'
+import BuildFormModsModal from '../Components/BuildFormModsModal/BuildFormModsModal'
 
 export default function Builds() {
     return (
         <PageLayout>
-            <p>Want to feature your car Build? Add it below!</p>
-            <BuildForm />
+            <p className = "Build-Text">View builds of various makes and models</p>
+            <button type = "button" data-bs-toggle = "modal" data-bs-target = "#buildModal" className = "btn btn-dark add-build-button">Add a Build</button>
+            <BuildFormModal />
+            <BuildFormModsModal />
+            {/*
             <BuildsContainer />
+            */}
         </PageLayout>
     )
 }
