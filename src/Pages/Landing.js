@@ -1,5 +1,4 @@
 import React from 'react'
-import BuildForm from '../Components/BuildForm/BuildForm'
 import Navbar from '../Components/Navbar/Navbar'
 
 export default function Landing() {
