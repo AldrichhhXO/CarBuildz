@@ -1,6 +1,11 @@
 import React from 'react'
 import './BuildForm.css'
 
+/**
+ * @name BuildFormModal
+ * @param {*} props 
+ * @returns 
+ */
 export default function BuildFormModal(props) {   
     return (
         <div id = "buildModal" className = "modal fade" tabIndex = "-1" aria-labelledby = "" aria-hidden = "true">
