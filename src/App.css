@@ -1,3 +1,9 @@
+.landing-grid {
+  width: 80%;
+  margin: auto;
+  
+}
+
 input[type=number] {
   appearance: textfield;
 }
