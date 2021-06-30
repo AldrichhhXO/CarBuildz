@@ -1,8 +1,12 @@
+require('dotenv').config()
+
 let express = require('express');
 let app = express();
 let indexRouter = require('./Routes/Index')
 let path = require('path')
 let morgan = require('morgan')
+
+
 
 app.use(morgan('dev'))
 app.use(express.static(path.join(__dirname, '../build')));
