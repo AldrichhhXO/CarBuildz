@@ -14,6 +14,7 @@ export default function BuildFormModal(props) {
         alert('srt')
     }
 
+    // Testing
     return (
         <div id = "buildModal" className = "modal fade" tabIndex = "-1" aria-labelledby = "" aria-hidden = "true">
             <div className = "modal-dialog modal-lg modal-dialog-centered">
