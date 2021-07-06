@@ -1,0 +1,77 @@
+.landing-grid {
+  width: 80%;
+  margin: auto;
+  
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+
+.Filter-Container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Filter-Group label {
+  font-size: 20px;
+}
+
+.Filter-Group input {
+  margin-left: 5px;
+}
+
+
+/*
+  Builds Page
+*/
+
+
+.Build-Text {
+  border: 1px solid black;
+  font-size: 3vw;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.add-build-button {
+  width: 20vw;
+  max-width: 300px;
+  min-width: 250px;
+  height: 10vh; 
+  max-height: 60px;
+  font-size: 30px;
+  margin: 30px auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+}
+
+
+.build-div {
+  width: 70%;
+  max-width: 900px;
+}
+
+.build-div p {
+  font-size: 22px;
+  text-indent: 20px;
+}
+
+
+.build-div h2 {
+  margin: 30px;
+}

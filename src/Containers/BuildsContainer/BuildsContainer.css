@@ -1,0 +1,20 @@
+.BuildsContainer {
+    width: 70vw;
+    max-width: 1920px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 30px;
+    margin: 0 auto;
+}
+
+
+.ImageTest {
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.ImageTest img {
+    width: 100%;
+}
