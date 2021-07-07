@@ -44,6 +44,7 @@ input[type=number] {
 
 .add-build-button {
   width: 20vw;
+<<<<<<< HEAD
   max-width: 300px;
   min-width: 250px;
   height: 10vh; 
@@ -74,4 +75,9 @@ input[type=number] {
 
 .build-div h2 {
   margin: 30px;
+=======
+  height: 10vh; 
+  font-size: 2vw;
+  margin: 0 auto;
+>>>>>>> 29ca706a4c66906fe71c6ce26baf23fc07ba6260
 }

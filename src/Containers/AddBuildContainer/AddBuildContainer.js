@@ -33,7 +33,11 @@ export default class AddBuildContainer extends Component {
 
         return (
             <div>
+<<<<<<< HEAD
                 <BuildFormModal carYear = {this.state.carYear} carMake = {this.state.carMake} carModel = {this.state.carModel} carYearHandler = {buildHandlers.carYear} carMakeHandler = {buildHandlers.carMake} carModelHandler = {buildHandlers.carModel} />
+=======
+                <BuildFormModal carYear = {this.state.carYear} carMake = {this.state.carMake} carModel = {this.state.carModel} {...buildHandlers} />
+>>>>>>> 29ca706a4c66906fe71c6ce26baf23fc07ba6260
                 <BuildFormModsModal />
             </div>
         )

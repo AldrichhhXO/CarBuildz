@@ -3,6 +3,7 @@ import PageLayout from '../Layout/PageLayout'
 import AddBuildContainer from '../Containers/AddBuildContainer/AddBuildContainer'
 import BuildsContainer from '../Containers/BuildsContainer/BuildsContainer'
 
+<<<<<<< HEAD
 import BuildCarFilters from '../Components/BuildCardFilters/BuildCarFilters'
 
 export default function Builds() {
@@ -26,6 +27,15 @@ export default function Builds() {
             <AddBuildContainer />
             <h3 style = {{textAlign: 'center', margin: '50px 0px'}}>Featured Builds</h3>
             <BuildCarFilters />
+=======
+export default function Builds() {
+    return (
+        <PageLayout>
+            <p className = "Build-Text">View builds of various makes and models</p>
+            <button type = "button" data-bs-toggle = "modal" data-bs-target = "#buildModal" className = "btn btn-dark add-build-button">Add a Build</button>
+            <AddBuildContainer />
+            <h3 style = {{textAlign: 'center', margin: '20px 0px'}}>Featured Builds</h3>
+>>>>>>> 29ca706a4c66906fe71c6ce26baf23fc07ba6260
             <BuildsContainer />
         </PageLayout>
     )

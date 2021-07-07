@@ -1,11 +1,18 @@
 .BuildsContainer {
+<<<<<<< HEAD
     width: 70vw;
     max-width: 1920px;
+=======
+    width: 100vw;
+>>>>>>> 29ca706a4c66906fe71c6ce26baf23fc07ba6260
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     row-gap: 30px;
+<<<<<<< HEAD
     margin: 0 auto;
+=======
+>>>>>>> 29ca706a4c66906fe71c6ce26baf23fc07ba6260
 }
 
 
