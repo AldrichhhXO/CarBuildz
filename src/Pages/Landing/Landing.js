@@ -1,9 +1,11 @@
 import React from 'react'
-import Navbar from '../Components/Navbar/Navbar'
+import Navbar from '../../Components/Navbar/Navbar'
 
-import CarFlames from '../Images/Landing/carflames.jpg'
-import Frs from '../Images/Landing/frs.jpg'
-import Nissan from '../Images/Landing/240sx.jpg'
+import './Landing.css'
+
+import CarFlames from '../../Images/Landing/carflames.jpg'
+import Frs from '../../Images/Landing/frs.jpg'
+import Nissan from '../../Images/Landing/240sx.jpg'
 
 export default function Landing() {
     return (
@@ -39,22 +41,22 @@ export default function Landing() {
                     <div className = "col" style = {{marginBottom: '50px'}}>
                         <h3>Carbuildz key Features</h3>
                     </div>
-                    <div className = "row row-cols-3" style = {{width: '100%'}}>
-                        <div className = "col ">
-                        <img src = {Frs} style = {{width: '80%', opacity: '0.8'}}/>
+                    <div className = "row" style = {{width: '100%'}}>
+                        <div className = "col landing-features-col">
+                        <img  className = "landing-features-image" src = {Frs} />
                             <p className = "landing-intro-text">
                                 Be able to search a vehicle within the database of various makes and models.
                             </p>
                         </div>
-                        <div className = "col">
-                        <img src = {CarFlames} style = {{width: '80%', opacity: '0.8'}}/>
+                        <div className = "col landing-features-col">
+                        <img src = {CarFlames} className = "landing-features-image"/>
                             <p className = "landing-intro-text">
 
-                                Search builds based on the make, model, or even part
+                                Search builds based on the make, model, or even part. The key is simplicity in this web application, and it'll allow you to easily search for what you need.
                             </p>
                         </div>
-                        <div className = "col">
-                        <img src = {Nissan} style = {{width: '80%', opacity: '0.8'}}/>
+                        <div className = "col landing-features-col">
+                        <img src = {Nissan} className = "landing-features-image"/>
                             <p className = "landing-intro-text">
                                 Be able to upload your own build to share across the automotive community
                             </p>
@@ -64,7 +66,7 @@ export default function Landing() {
             </div>
 
             <div className = "container text-center" style = {{ marginTop: '50px'}}>
-                <button className = "btn btn-dark">View Builds</button>
+                <button className = "btn btn-outline-dark">View Builds</button>
             </div>
         </div>
     )

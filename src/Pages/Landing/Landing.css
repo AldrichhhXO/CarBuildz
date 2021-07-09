@@ -1,0 +1,45 @@
+.landing-banner {
+    background: url(../../Images/Landing/gtr.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+    animation: fade 1.2s forwards ease;
+  }
+
+
+  .landing-features-image {
+      width: 80%;
+      min-width: 300px;
+      max-width: 600px;
+  }
+
+  .landing-features-col {
+      margin-bottom: 100px;
+  }
+
+
+  .landing-intro-text {
+    font-size: 23px;
+    width: 70%;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+
+
+
+  @media only screen and (min-width: 280px) {
+      .landing-intro-text {
+          font-size: 18px;
+          width: 80%;
+      }
+  }
+
+  @media only screen and (min-width: 1000px) {
+      .landing-intro-text {
+          font-size: 23px;
+          width: 70%;
+      }
+  }
