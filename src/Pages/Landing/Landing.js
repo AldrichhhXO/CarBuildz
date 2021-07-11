@@ -11,7 +11,10 @@ export default function Landing() {
     return (
         <div className = "Container">
             <Navbar />
-            <div className = "landing-banner"></div>
+            <div className = "landing-banner">
+                <h1>CarBuildz.IO</h1>
+                <p></p>
+            </div>
             <div className = "container" style = {{marginTop: '100px'}}>
                 <div className = "row row-cols-1 text-center">
                     <div class="col">
