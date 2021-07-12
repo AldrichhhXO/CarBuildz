@@ -1,8 +1,6 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
-
 import './Landing.css'
-
 import CarFlames from '../../Images/Landing/carflames.jpg'
 import Frs from '../../Images/Landing/frs.jpg'
 import Nissan from '../../Images/Landing/240sx.jpg'
