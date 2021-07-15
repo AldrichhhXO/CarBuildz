@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Landing from './Pages/Landing/Landing'
 import Builds from './Pages/Builds'
-import Cars from './Pages/Cars'
+import Cars from './Pages/Cars/Cars'
 import Map from './Pages/Map'
 
 

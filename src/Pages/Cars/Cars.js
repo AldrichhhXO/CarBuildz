@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import CarsTable from '../Containers/CarsTable/CarsTable'
-import Filters from '../Components/Filters/Filters'
-import Navbar from '../Components/Navbar/Navbar'
-import Data from '../Data.json'
+import CarsTable from '../../Containers/CarsTable/CarsTable'
+import Filters from '../../Components/Filters/Filters'
+import Navbar from '../../Components/Navbar/Navbar'
+import Data from '../../Data.json'
 
 
 export default class Cars extends Component {
@@ -31,6 +31,7 @@ export default class Cars extends Component {
     }
     updateSearchQuery = (e) => this.setState({searchQuery: e.target.value})
 
+    
     populateModelButtons = () => {
         let carModels = new Set()
         for (let car = 0; car < Data.length; car++) {
@@ -43,7 +44,7 @@ export default class Cars extends Component {
             <div>
                 <Navbar />
                 <h1 style = {{textAlign: "center"}}>List of Cars</h1> 
-                <div>
+                <div className = "Vehicle-Search">
                     <label>Search for a Vehicle</label>
                     <input type = "text" onChange = {this.updateSearchQuery} />
                 </div>
