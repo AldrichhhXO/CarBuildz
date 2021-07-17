@@ -3,7 +3,7 @@ import CarsTable from '../../Containers/CarsTable/CarsTable'
 import Filters from '../../Components/Filters/Filters'
 import Navbar from '../../Components/Navbar/Navbar'
 import Data from '../../Data.json'
-// yee
+// y
 
 export default class Cars extends Component {
     constructor() {
